@@ -10,20 +10,25 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-
 @RestController
 @RequestMapping("/api")
 public class UserController {
+
+    //lagger -log4j
+    //sl4j
+    //INFO,WARN,DEBUG,ERROR,TRACE
     //Http method
     //status code
+
     @Autowired
     private UserServiceI userServiceI;
-
     //200
 
-
+    //@pathVariable -pass single data
+    //@RequestBody - whole object
+    //@requestparam -key-value data,?,&
     //@RequestMapping(Method=RequestMethod,post,name="/users")
+
     @PostMapping("/users")
     public ResponseEntity<User> createUser(@RequestBody User user) {
         User savedUser = userServiceI.createUser(user);

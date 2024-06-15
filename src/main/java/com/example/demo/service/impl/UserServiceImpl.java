@@ -4,10 +4,13 @@ import com.example.demo.model.User;
 import com.example.demo.repository.UserRepository;
 import com.example.demo.service.UserServiceI;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class UserServiceImpl implements UserServiceI {
 
     @Autowired
@@ -56,6 +59,7 @@ public class UserServiceImpl implements UserServiceI {
     }
 
     //4th snehal , 28, I am software Dev
+    @GetMapping("/users")
     @Override
     public void deleteUser(Long userId) {
         User user = userRepository.findById(userId).orElseThrow(() -> new RuntimeException("Resourse not found on server" + userId));

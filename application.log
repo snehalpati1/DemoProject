@@ -1,0 +1,74 @@
+2024-06-15T23:11:37.810+05:30  INFO 19520 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 19520 (D:\intelliji IdEA\Intelliji ID\demo\demo\target\classes started by sneha in D:\intelliji IdEA\Intelliji ID\demo\demo)
+2024-06-15T23:11:37.816+05:30  INFO 19520 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-15T23:11:39.167+05:30  INFO 19520 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-15T23:11:39.290+05:30  INFO 19520 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2024-06-15T23:11:40.439+05:30  INFO 19520 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-06-15T23:11:40.454+05:30  INFO 19520 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-15T23:11:40.454+05:30  INFO 19520 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-15T23:11:40.547+05:30  INFO 19520 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-15T23:11:40.547+05:30  INFO 19520 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2473 ms
+2024-06-15T23:11:40.823+05:30  INFO 19520 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-15T23:11:40.915+05:30  INFO 19520 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-15T23:11:40.973+05:30  INFO 19520 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-15T23:11:41.307+05:30  INFO 19520 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-15T23:11:41.355+05:30  INFO 19520 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-15T23:11:41.914+05:30  INFO 19520 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a3b858f
+2024-06-15T23:11:41.917+05:30  INFO 19520 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-15T23:11:41.967+05:30  WARN 19520 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-15T23:11:41.970+05:30  WARN 19520 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-15T23:11:43.100+05:30  INFO 19520 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-15T23:11:43.171+05:30  INFO 19520 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15T23:11:43.514+05:30  WARN 19520 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-15T23:11:44.014+05:30  INFO 19520 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path ''
+2024-06-15T23:11:44.034+05:30  INFO 19520 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.802 seconds (process running for 7.339)
+2024-06-15T23:20:05.207+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15T23:20:05.208+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-15T23:20:05.210+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-06-15T23:20:05.471+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:20:05.472+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:20:05.607+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-2] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data
+2024-06-15T23:20:31.908+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-3] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:20:31.908+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-3] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:20:31.914+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-3] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data
+2024-06-15T23:20:33.967+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-4] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:20:33.967+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-4] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:20:33.976+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-4] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data
+2024-06-15T23:22:05.929+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-7] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:22:05.929+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-7] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:22:05.937+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-7] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data
+2024-06-15T23:24:13.802+05:30  WARN 19520 --- [demo] [http-nio-9191-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2024-06-15T23:24:24.782+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-1] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:24:24.782+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-1] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:24:24.788+05:30  INFO 19520 --- [demo] [http-nio-9191-exec-1] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data
+2024-06-15T23:28:56.787+05:30  INFO 19520 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15T23:28:56.795+05:30  INFO 19520 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-15T23:28:56.807+05:30  INFO 19520 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-06-15T23:29:00.789+05:30  INFO 15620 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.9 with PID 15620 (D:\intelliji IdEA\Intelliji ID\demo\demo\target\classes started by sneha in D:\intelliji IdEA\Intelliji ID\demo\demo)
+2024-06-15T23:29:00.796+05:30  INFO 15620 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-06-15T23:29:02.017+05:30  INFO 15620 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-15T23:29:02.109+05:30  INFO 15620 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2024-06-15T23:29:02.997+05:30  INFO 15620 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9191 (http)
+2024-06-15T23:29:03.014+05:30  INFO 15620 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-15T23:29:03.015+05:30  INFO 15620 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-15T23:29:03.113+05:30  INFO 15620 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-15T23:29:03.115+05:30  INFO 15620 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2213 ms
+2024-06-15T23:29:03.370+05:30  INFO 15620 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-15T23:29:03.454+05:30  INFO 15620 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-15T23:29:03.511+05:30  INFO 15620 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-15T23:29:03.908+05:30  INFO 15620 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-15T23:29:03.944+05:30  INFO 15620 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-15T23:29:04.412+05:30  INFO 15620 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fbb1144
+2024-06-15T23:29:04.416+05:30  INFO 15620 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-15T23:29:04.466+05:30  WARN 15620 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-15T23:29:04.466+05:30  WARN 15620 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-06-15T23:29:05.592+05:30  INFO 15620 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-15T23:29:05.677+05:30  INFO 15620 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15T23:29:06.052+05:30  WARN 15620 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-15T23:29:06.635+05:30  INFO 15620 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9191 (http) with context path ''
+2024-06-15T23:29:06.647+05:30  INFO 15620 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.464 seconds (process running for 7.01)
+2024-06-15T23:29:17.487+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15T23:29:17.489+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-15T23:29:17.490+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-15T23:29:17.708+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] c.e.demo.controller.UserController       : Entaring the request for save user data
+2024-06-15T23:29:17.708+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] c.e.demo.service.impl.UserServiceImpl    : Initing the dao call for the save user data
+2024-06-15T23:29:17.801+05:30  INFO 15620 --- [demo] [http-nio-9191-exec-2] c.e.demo.service.impl.UserServiceImpl    : Completed the dao call for the save user data

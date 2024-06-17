@@ -58,7 +58,7 @@ public class UserController {
     @PutMapping("/users/{userId}")
     public ResponseEntity<User> updateUser(@RequestBody User user, @PathVariable Long userId) {
         User updateUser = userServiceI.updateUser(user, userId);
-        return new ResponseEntity<>(updateUser, HttpStatus.CREATED);
+        return new ResponseEntity<>(updateUser, HttpStatus.CREATED);//201 https code
     }
 
     public ResponseEntity<String> deleteUser(@PathVariable Long userId) {

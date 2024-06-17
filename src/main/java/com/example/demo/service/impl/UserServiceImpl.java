@@ -46,20 +46,21 @@ public class UserServiceImpl implements UserServiceI {
 
     //4th Snehal 28 I am software Dev
     @Override
-    public User getSingleUser(Long userId) {
+    public User getSingleUser(Long userId) throws Exception {
         log.info("Initiating the dao call for get single user data as userId{}:",userId);
      User user= userRepository.findById(userId).orElseThrow(() -> new RuntimeException("Resourece not found on server"));
         log.info("Complated the dao call for get single user data as userId{}:",userId);
         return user;
-    }
+          }
 
-    /*Optional<User> user= userRepository.findById(userId);
-         if(user.isPresent()) {
-         return user.get();
-     }else{
-         throw new Exception("Resource not found on server"+ userId);
-     }
-     */
+  /*      Optional<User> user = userRepository.findById(userId);
+        if (user.isPresent()) {
+            return user.get();
+        } else {
+            throw new Exception("Resource not found on server ! !" + userId);
+        }
+        }*/
+
     @Override
     public List<User> getAllUsers() {
         List<User> allUsers = userRepository.findAll();
